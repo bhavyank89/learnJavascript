@@ -38,11 +38,11 @@ everyone
     const { keyOfObject = 'defaultValue' } = objectname;
 
 const user = {
-    fname : "Bhavyank",
-    lname : "Sarolia",
+    fname : "John",
+    lname : "deow",
     branch : "ECE-Core",
-    email : "bt22ece076@iiitn.ac.in",
-    password : "BT22ece076@Bhav"
+    email : "bhavyank.in",
+    password : "121212"
 }
 
 
@@ -51,19 +51,19 @@ const user = {
 const {email} = user;
 
 email
-'bt22ece076@iiitn.ac.in'
+'bhavyank.in'
 
 
 const {email , fname , lname} = user;
 
 email
-'bt22ece076@iiitn.ac.in'
+'bhavyank.in'
 
 lname
-'Sarolia'
+'deow'
 
 fname
-'Bhavyank'
+'John'
 
 
 ------------------- Syntex 2 Example -----------------------------------------------
@@ -71,13 +71,13 @@ fname
 const {email: Email_Id , fname: FirstName , lname: LastName} = user;
 
 Email_Id
-'bt22ece076@iiitn.ac.in'
+'bhavyank.in'
 
 FirstName
-'Bhavyank'
+'John'
 
 LastName
-'Sarolia'
+'deow'
 
 
 ------------------ Syntex 3 Example ----------------------------------------------
@@ -98,6 +98,6 @@ function fullName( {fname , lname} ){
 }
 
 fullName(user)
-'Bhavyank Sarolia'
+'John deow'
 
 */
