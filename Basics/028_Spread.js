@@ -40,19 +40,19 @@ allPets
 // We can combine or copy object form one to another
 
 const user = {
-    fname : "Bhavyank",
-    lname : "Sarolia",
+    fname : "john",
+    lname : "deow",
     branch : "ECE-Core"
 }
 
-const newUser = {...user,email : "bt22ece076@iiitn.ac.in",password : "iiitn@123X", rollNumber : "BT22ECE076"}
+const newUser = {...user,email : "example@123",password : "iiitn@123X", rollNumber : "BT22ECE"}
 
 newUser
 branch : "ECE-Core"
-email : "bt22ece076@iiitn.ac.in"
-fname : "Bhavyank"
-lname : "Sarolia"
+email : "example@123"
+fname : "john"
+lname : "deow"
 password : "iiitn@123X"
-rollNumber : "BT22ECE076"
+rollNumber : "BT22ECE"
 
 */
