@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FETCH</title>
+</head>
+
+<body>
+    <p>
+        Fetch is a new way for making HTTP request.<br>
+        It supports promises and hence prevent callback hells<br>
+        fetch( "url" ); = fetch is an inbuit function which expects a url as an argument and return
+        a promise.
+        <br>
+        but..........<br>
+        whenever fetch is executed with a url it returns response as soon as headers are fetched<br>
+        and we do not get the responseText with it.<Br><br>
+        To get back the responseText of the data we again apply a method to the response we got earlier as <br>
+        response.json() this method also returns a promise.
+    </p>
+    <p>
+        A third way of HTTP request is by using a third party library called AXIOs<br>
+        AXIOs is a library for making HTTP request<br>
+        AXIOs uses fetch in their backend for making HTTP request
+    </p>
+    <script src="019_UsingFetchForAPIs.js"></script>
+</body>
+
+</html>
